@@ -1,0 +1,574 @@
+<resources>
+    <string name="app_name">STREE</string>
+
+    <!--Drawer content text-->
+    <string name="home">HOME</string>
+    <string name="jobs">JOBS</string>
+    <string name="interview">INTERVIEW</string>
+    <string name="policy">POLICIES</string>
+    <string name="legal_support">LEGAL SUPPORT</string>
+    <string name="education">EDUCATION</string>
+    <string name="health">HEALTH</string>
+    <string name="more_links">MORE LINKS</string>
+    <string name="complaint_box">COMPLAINT BOX</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="help">HELP</string>
+    <string name="register">Register</string>
+
+
+    <!--Strings for login, logout and Register buttons and pages-->
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="unique_id">Unique ID</string>
+    <string name="new_to_stree_register">New to STREE? Register.</string>
+    <string name="register_page_title">Registration</string>
+    <string name="register_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered_login">Already registered? Login.</string>
+    <string name="phone">Phone Number</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="user_login">User Login</string>
+
+    <!--For toggle, NOTE: Used only for toggle. Never appear to user-->
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+
+    <!--For User Complaint Box Activity-->
+    <string name="complaint_related_to">Complaint Related To :</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_complaint">Enter Complaint </string>
+    <string name="complaint">Send Complaint</string>
+    <string name="upload_image">UPLOAD IMAGE</string>
+    <string name="upload_video">UPLOAD VIDEO</string>
+    <string name="upload" translatable="false">अपलोड</string>
+
+    <string-array name="complaint_type_spinner_items">
+        <item>HEALTH</item>
+        <item>EDUCATION</item>
+        <item>JOBS</item>
+        <item>INTERVIEW TIPS</item>
+        <item>POLICY</item>
+        <item>LEGAL SUPPORT</item>
+    </string-array>
+
+    <!--Strings for login Popup-->
+    <string name="login_as">Login As</string>
+    <string name="user">User</string>
+    <string name="admin">Admin</string>
+
+
+    <!--HEALTH FIRST TAB LIST AND TAB NAMES AND STATIC DATA-->
+    <string name="h_tab1">Women health tips</string>
+    <string name="h_tab2">Child Health tips</string>
+    <string name="h_tab3">Women Helth Issues</string>
+    <string name="h_tab4">Child health Issues</string>
+    <string name="h_tab5">Nutrition Guide</string>
+    <string name="h_tab6">Hygiene  Methods</string>
+
+    <!--Women Health Tips-->
+    <string name="healthtip1">Eat a healthy diet.</string>
+    <string name="healthtip1_desc">“You want to eat as close to a natural foods diet as you can,” That means a variety of fresh fruits and vegetables and fewer processed foods. Eat whole grains and high-fiber foods and choose leaner cuts of meat, fish, and poultry. Include low-fat dairy products in your diet as well — depending on your age, you need between 800 and 1,500 milligrams of calcium daily to help avoid osteoporosis.  Avoid foods and beverages that are high in calories, sugar, salt, and fat.</string>
+
+    <string name="healthtip2">Exercise</string>
+    <string name="healthtip2_desc">Heart disease is the leading cause of death among women, but plenty of
+exercise can help keep your heart healthy. You want to exercise at least 30 minutes a day, five days a
+week, if not every day. Aerobic exercises (walking, swimming, jogging, bicycling, dancing) are good for
+women’s health in general and especially for your heart.</string>
+
+    <string name="healthtip3">Avoid risky habits</string>
+    <string name="healthtip3_desc">Stay away from cigarettes and people who smoke. Don’t use drugs. If
+you drink alcohol, do so in moderation. Most women’s health studies show that women can safely
+consume one drink a day. A drink is considered to be about 12 to 14 grams of alcohol, which is equal to
+12 ounces of beer (4.5 percent alcohol); 5 ounces of wine (12.9 percent alcohol); or 1.5 ounces of spirits
+(hard liquor such as gin or whiskey, 80-proof).</string>
+
+    <string name="healthtip4">Manage stress</string>
+    <string name="healthtip4_desc">No matter what stage of her life — daughter, mother, grandmother — a
+woman often wears many hats and deals with a lot of pressure and stress. “Take a few minutes every
+day just to relax and get your perspective back again,”. “It doesn’t take long, and mental health is
+important to your physical well-being.” You also can manage stress with exercise, relaxation techniques,
+or meditation.</string>
+
+    <string name="healthtip5">Sun safely</string>
+    <string name="healthtip5_desc">Excessive exposure to the sun’s harmful rays can cause skin cancer, which can
+be deadly. To protect against skin cancer, wear sunscreen with a sun protection factor (SPF) of at least
+15 if you are going to be outdoors for more than a few minutes. Even if you wear sunscreen faithfully,
+you should check regularly for signs of skin cancer. Warning signs include any changes in the size, shape,
+color, or feel of birthmarks, moles, or freckles, or new, enlarging, pigmented, or red skin</string>
+
+    <string name="healthtip6">Check for breast cancer</string>
+    <string name="healthtip6_desc">The American Cancer Society no longer recommends monthly
+breast self-exams for women. However, it still suggests them as “an option” for women, starting in their
+20s. You should be on the lookout for any changes in your breasts and report any concerns to your
+doctor. All women 40 and older should get a yearly mammogram as a mammogram is the most effective
+way of detecting cancer in its earliest stages, when it is most treatable.</string>
+
+    <!--HEALTH TAB 2 DATA-->
+    <!--CHILD HEALTH TIPS -->
+    <string name="child_healthtip1">Eating better</string>
+    <string name="child_healthtip1_desc">
+             Start the day with a healthy breakfast. It refuels the body and provides energy for the day.
+ Let kids help plan and prepare 1 meal each week.
+ Eat together as a family as often as possible.
+ Take time eating, and chew slowly. It takes 20 minutes for the brain to tell the body that
+you are full.
+ Eat more vegetables and fresh fruits. Aim for a total of 2 cups of fruit and 2 1/2 cups of
+vegetables each day.
+ Eat more whole grains. Examples include oats, brown rice, rye, and whole-wheat pasta. Try
+to eat at least 3 ounces of whole grains each day.
+ Drink plenty of fluids. Choose water, low-fat or nonfat milk, and low-calorie beverages.
+ Serve a variety of foods.
+ Serve food in small portions.</string>
+
+    <string name="child_healthtip2">Being more active</string>
+    <string name="child_healthtip2_desc"> Move more. Try to get between 30 and 60 minutes of physical activity each day. Short
+sessions of movement throughout the day add up.
+ Include physical activity in your daily routine. Walk as a family before or after meals.
+ Make playtime with your family fun. Be active by shooting hoops or playing tag.
+ Be active in the home. 
+ nclude activities, such as hiking or biking, when you go on vacation.
+ Know your daily calorie needs. Balance calories you consume with calories you burn.
+ Limit TV, computer, and video game time to less than 2 hours per day.
+Encourage physical activity instead.</string>
+
+    <!--WOMEN HEALTH ISSUE-->
+
+    <string name="women_healthIssue1">Types of Issues</string>
+    <string name="women_healthIssue1_desc">Women have unique health issues. And some of the health issues that affect both men and women
+can affect women differently.
+        Unique issues include <b>pregnancy, menopause</b>, and conditions of the female organs. Women can
+        have a healthy pregnancy by getting early and regular <b>prenatal care</b>. They should also get
+        recommended breast cancer, <b>cervical cancer</b>, and <b>bone density</b> screenings.</string>
+
+    <string name="women_healthIssue2">Cancer:</string>
+    <string name="women_healthIssue2_desc">Two of the most common cancers affecting women are breast and cervical cancers. Detecting
+both these cancers early is key to keeping women alive and healthy. The latest global figures show that
+around half a million women die from cervical cancer and half a million from breast cancer each year.</string>
+
+
+    <string name="women_healthIssue3">Reproductive health:</string>
+    <string name="women_healthIssue3_desc">Sexual and reproductive health problems are responsible for one third of health
+issues for women between the ages of 15 and 44 years. Unsafe sex is a major risk factor – particularly
+among women and girls in developing countries.</string>
+
+
+    <string name="women_healthIssue4">Maternal health:</string>
+    <string name="women_healthIssue4_desc">Many women are now benefitting from massive improvements in care during pregnancy
+and childbirth introduced in the last century. But those benefits do not extend everywhere and in 2013,
+almost 300 000 women died from complications in pregnancy and childbirth. Most of these deaths could
+have been prevented, had access to family planning and to some quite basic services been in place.</string>
+
+
+    <string name="women_healthIssue5">HIV:</string>
+    <string name="women_healthIssue5_desc">Too many young women still struggle to protect themselves against sexual transmission of HIV and
+to get the treatment they require. This also leaves them particularly vulnerable to tuberculosis - one of the
+leading causes of death in low-income countries of women 20–59 years.</string>
+
+
+    <string name="women_healthIssue6">Mental health:</string>
+    <string name="women_healthIssue6_desc">Evidence suggests that women are more prone than men to experience anxiety,
+depression, and somatic complaints – physical symptoms that cannot be explained medically. Depression
+is the most common mental health problem for women and suicide a leading cause of death for women
+under 60. Helping sensitise women to mental health issues, and giving them the confidence to seek
+assistance, is vital.</string>
+
+    <string name="women_healthIssue7">Noncommunicable diseases:</string>
+    <string name="women_healthIssue7_desc">In 2012, some 4.7 million women died from noncommunicable diseases
+before they reached the age of 70 —most of them in low- and middle-income countries. They died as a
+result of road traffic accidents, harmful use of tobacco, abuse of alcohol, drugs and substances, and
+obesity.</string>
+
+
+    <string name="women_healthIssue8">Being young:</string>
+    <string name="women_healthIssue8_desc">Adolescent girls face a number of sexual and reproductive health challenges: STIs, HIV,
+and pregnancy. About 13 million adolescent girls (under 20) give birth every year. Complications from
+those pregnancies and childbirth are a leading cause of death for those young mothers. Many suffer the
+consequences of unsafe abortion.</string>
+
+
+    <!--CHILD HEAlTH ISSUES-->
+    <string name="child_healthIssues1">Types Of Health Issues</string>
+    <string name="child_healthIssues1_desc">All children deserve high-quality medical care. As a parent, it is important to be aware of the most up-to-
+        date treatment guidelines so you can be sure your child is getting the best care possible.</string>
+
+    <string name="child_healthIssues2">Sour Throat</string>
+    <string name="child_healthIssues2_desc">Sore throats are common in children and can be painful. However, a sore throat that is caused by a
+virus does not need antibiotics. In those cases, no specific medicine is required, and your child should
+get better in seven to ten days. In other cases, a sore throat could be caused by an infection called
+streptococcal (strep throat).</string>
+
+    <string name="child_healthIssues3">Ear Pain</string>
+    <string name="child_healthIssues3_desc">Ear pain is common in children and can have many causes—including ear infection (otitis media),
+swimmer&#39;s ear (infection of the skin in the ear canal), pressure from a cold or sinus infection, teeth pain
+radiating up the jaw to the ear, and others. . To tell the difference, your pediatrician will need to
+examine your child&#39;s ear. In fact, an in-office exam is still the best way for your pediatrician to make an
+accurate diagnosis</string>
+
+    <string name="child_healthIssues4">Urinary Tract Infection</string>
+    <string name="child_healthIssues4_desc">Bladder infections, also called urinary tract infections or UTIs, occur when bacteria build up in the
+urinary tract. A UTI can be found in children from infancy through the teen years and into adulthood.
+Symptoms of a UTI include pain or burning during urination, the need to urinate frequently or urgently,
+bedwetting or accidents by a child who knows to use the toilet, abdominal pain, or side or back pain.</string>
+
+
+    <string name="child_healthIssues5">Skin Infection</string>
+    <string name="child_healthIssues5_desc">In most children with skin infections, a skin test (culture or swab) may be needed to determine the
+most-appropriate treatment. Tell your doctor if your child has a history of MRSA, staph infection, or
+other resistant bacteria or if he or she has been exposed to other family members or contacts with
+resistant bacteria.</string>
+
+    <string name="child_healthIssues6">Common Cold</string>
+    <string name="child_healthIssues6_desc">Colds are caused by viruses in the upper respiratory tract. Many young children—especially those in
+child care—can get 6 to 8 colds per year. Symptoms of a cold (including runny nose, congestion, and
+cough) may last for up to ten days.</string>
+
+    <string name="child_healthIssues7">Coughs</string>
+    <string name="child_healthIssues7_desc">Green mucus in the nose does not automatically mean that antibiotics are needed; common colds
+never need antibiotics. However, if a sinus infection is suspected, your doctor will carefully decide
+whether antibiotics are the best choice based on your child&#39;s symptoms and a physical exam.
+ Coughs are usually caused by viruses and do not often require antibiotics.
+ Cough medicine is not recommended for children 4 years of age and younger, or for children 4
+to 6 years of age unless advised by your doctor. Studies have consistently shown that cough
+medicines do not work in the 4-years- and-younger age group and have the potential for serious
+side effects. Cough medicines with narcotics—such as codeine—should not be used in children.</string>
+
+    <!--Hygiene methods -->
+
+    <string name="hygiene_method1">Choose your method of sanitation:</string>
+    <string name="hygiene_method1_desc">Today there are a number of ways including the use of sanitary napkins, tampons
+        and menstrual cups to stay clean. In India, most unmarried girls
+        prefer to use sanitary napkins. If you do decide to use a tampon remember that it is essential to choose one that has the lowest absorbency rate for your flow.
+        While there are some women who choose to use either different types of sanitary napkins on different days of their periods or different methods of
+        protection (like a tampon and a sanitary napkin), there are some who prefer to stick to one type and brand. The best tip here is to
+        try and use one brand for one type of protection for a while to know if it helps your needs. Frequent switching between brands can make you uncomfortable
+        since brands are as unique as you, they suit everyone differently.</string>
+
+    <string name="hygiene_method2">Change regularly:</string>
+    <string name="hygiene_method2_desc">Menstrual blood – once it has left the body – gets contaminated with the body’s innate organisms. This rule applies for even those days when you don’t have much bleeding, since your pad is still damp and will have organisms from your vagina, sweat from your genitals, etc. When these organisms remain in a warm and moist place for a long time they tend to multiply and can lead to conditions like urinary tract infection, vaginal infections and skin rashes.
+The standard time to change a sanitary pad is once every six hours, while for a tampon is once every two hours. That being said, you have to customize the changing schedule to your needs. While some women might have a heavy flow and would need to change more often, others will need to change less frequently. There are a few instances where your sanitary napkin or tampon might not be completely used – usually on days when you have a lesser flow – but you must change at regular intervals.
+In the case of tampons it is very important because, if left inserted into the vagina for long periods of time it can cause a condition called TSS or toxic shock syndrome – a condition where bacteria infiltrate the body leading to severe infection that can send to the body into shock – that requires emergent treatment and can lead to serious complications and even death.
+</string>
+
+    <string name="hygiene_method3">Wash yourself regularly:</string>
+    <string name="hygiene_method3_desc">When you menstruate, the blood tends to enter tiny spaces like the skin between your labia or crust around the opening of the vagina and you should always wash this excess blood away. This practice also tends to beat bad odour from the vaginal region. So, it is important to wash your vagina and labia (the projecting part of female genitals) well before you change into a new pad. If you cannot wash yourself before you change make sure to wipe off the areas using toilet paper or tissue.</string>
+
+    <string name="hygiene_method4">Don’t use soaps or vaginal hygiene products</string>
+    <string name="hygiene_method4_desc">The vagina has its own cleaning mechanism that works in a very fine balance of good and bad bacteria. Washing it with soap can kill the good bacteria making way for infections. So, while it is important to wash yourself regularly during this time, all you need to use is some warm water. You can use soap on the external parts but do not use it inside your vagina or vulva.</string>
+
+    <string name="hygiene_method5">Use the right washing technique:</string>
+    <string name="hygiene_method5_desc">Always wash or clean the area in a motion that is from the vagina to the anus. Never wash in the opposite direction. Washing in the opposite direction can cause bacteria from the anus to lodge in the vagina and urethral opening, leading to infections. Read about urinary tract infections</string>
+
+    <string name="hygiene_method6">Discard your used sanitary product properly:</string>
+    <string name="hygiene_method6_desc">It is essential to discard your used napkins or tampons properly because they are capable of spreading infections, will smell very foul. Wrapping it well before discarding it ensures that the smell and infection is contained. It is advised not to flush the pad or tampon down the toilet since they are capable of forming a block and can cause the toilet to back up. More importantly it is imperative that you wash your hands well after you discard your used napkin since you are likely to touch the used portion of the pad or tampon while discarding it.</string>
+
+    <string name="hygiene_method7">Beware of a pad rash:</string>
+    <string name="hygiene_method7_desc">A pad rash is something that you might experience during a period of heavy flow. It usually occurs when the pad has been wet for a long time and rubs along the thighs causing it to chaff. To prevent this from occurring, try to stay dry during your periods. If you do have a rash, change your pads regularly and stay dry. Apply an antiseptic ointment, after a bath and before bed – this will heal the rash and prevent further chaffing. If it gets worse do visit your doctor who will be able to prescribe you a medicated powder that can keep the area dry.</string>
+
+    <string name="hygiene_method8">Use only one method of sanitation at a time:</string>
+    <string name="hygiene_method8_desc">Some women who have heavy flow during their periods tend to use either (i) two sanitary pads, (ii) a tampon and sanitary pad (iii) a sanitary pad along with a piece of cloth. This might seem like a good idea, but it actually is not, changing regularly is a better option. Using two pads or a tampon and a sanitary pad is bad because the two pads absorb the blood and you don’t see that they are completely used up you are unlikely to change at regular and healthy intervals. This can lead to rashes, infections and in the case of tampons even TSS. Another consideration is that if one does use a piece of cloth as extra protection that cloth may not be the cleanest thing to put next to your private parts.  Lastly, the whole two pad structure is extremely uncomfortable and can leave you with a bad rash and an even worse temper.</string>
+
+    <string name="hygiene_method9">Have a bath regularly:</string>
+    <string name="hygiene_method9_desc">To some it may seem like the most insane advice, but in some cultures it is believed that a woman should not bathe during her periods. This myth was based on the fact that in the olden days women had to bathe in the open or in common water bodies like a river or lake. But with indoor plumbing having a bath is the best thing you can do for your body during your periods. Bathing not only cleanses your body but also gives you a chance to clean your private parts well. It also helps relieve menstrual cramps, backaches, helps improve your mood and makes you feel less bloated. To get some relief from backaches and menstrual cramps, just stand under a shower of warm water that is targeted towards your back or abdomen. You will feel much better at the end of it.</string>
+
+    <string name="hygiene_method10">Be ready with on-the-go stuff during your periods:</string>
+    <string name="hygiene_method10_desc">When you have your periods it is important to be ready. It is important to have extra sanitary pads or tampons properly stored in a clean pouch or paper bag, a soft towel, some paper tissues or towels, hand sanitizer, a healthy snack, bottle of drinking water, a tube of antiseptic medication (if you are using one).
+Changing your pads/ tampons regularly is essential, so you will need extra. More importantly storing them properly so that they don’t get contaminated is as important as changing. Pads or tampons that remain in your bag without a clean pouch to protect it can also lead to infections like UTI (urinary tract infection) or vaginal infections. The soft towel can be used to wipe your hands or face if you wash them. Paper towels are the important to wipe off the excess water after you wash your private parts. It is best you don’t use toilet paper for this as it tends to shred and tear when it touches water. Your hand sanitizer is a very important factor here. You will need it to clean your hands and you can use it to clean the flush knob and tap faucet as well. The snack is a backup in case you feel weak or run down during the day and the bottle of water is to help you stay hydrated throughout the day.
+</string>
+
+
+    <!--Nutrition Guides-->
+
+    <string name="nutrition_guide1">Make better food choices 10 tips for women’s health</string>
+    <string name="nutrition_guide1_desc">Make yourself a priority and take time to care for yourself. ChooseMyPlate.gov helps you choose the types and amounts of food and beverages you need. And, make time to be physically active, so you can do the things you want to do.</string>
+
+    <string name="nutrition_guide2">Find out what you need</string>
+    <string name="nutrition_guide2_desc">Get personalized nutrition information based on your age, gender, height, weight, and physical activity level. SuperTracker provides your calorie level, shows foods and beverages you need, and tracks progress toward your goals. Learn more at www.SuperTracker.usda.gov</string>
+
+    <string name="nutrition_guide3">Enjoy your food  but eat less</string>
+    <string name="nutrition_guide3_desc">Use a smaller plate at meals to help control the amount of food and calories you eat. Take time to enjoy smaller amounts of food.</string>
+
+    <string name="nutrition_guide4">Strengthen your bones</string>
+    <string name="nutrition_guide4_desc">Choose foods like fat-free and low-fat milk, cheese, yogurt, and fortified soymilk to help strengthen bones. Be sure your morning coffee includes fat-free or low-fat milk.</string>
+
+    <string name="nutrition_guide5">Make half your plate fruits and vegetables</string>
+    <string name="nutrition_guide5_desc">Add fruit to meals as part of main or side dishes. Choose red, orange, or dark-green vegetables like tomatoes, sweet potatoes, and broccoli, along with other vegetables for meals.</string>
+
+    <string name="nutrition_guide6">Drink water</string>
+    <string name="nutrition_guide6_desc">Sip water or other drinks with few or no calories to help maintain a healthy weight. Keep a water bottle in your bag or at your desk to satisfy your thirst throughout the day.</string>
+
+    <string name="nutrition_guide7">Eat whole grains more often</string>
+    <string name="nutrition_guide7_desc">Choose whole grains like brown rice and whole-grain pastas and breads more often. Foods with a high-fibre content can help give you a feeling of fullness and also provide key nutrients.</string>
+
+    <string name="nutrition_guide8">Learn what is food</string>
+    <string name="nutrition_guide8_desc">Use both ingredient and Nutrition Facts labels to discover what various foods contain. SuperTracker’s Food-A-Pedia makes it easy to compare nutrition information for more than 8,000 foods.
+</string>
+
+    <string name="nutrition_guide9">Cut back on some food</string>
+    <string name="nutrition_guide9_desc">Cut calories by cutting out foods high in solid fats and added sugar. Limit fatty meats like ribs, bacon, and hot dogs. Choose cakes, cookies, candies, and ice cream as just occasional treats.</string>
+
+    <string name="nutrition_guide10">Be a better cook</string>
+    <string name="nutrition_guide10_desc">Try out healthier recipes that use less solid fat, salt, and sugar. Eat at home more often so you can control what you are eating. If you eat out, check and compare nutrition information. Choose healthier options such as baked chicken instead of fried chicken.</string>
+
+    <string name="nutrition_guide11">Be active whenever you can</string>
+    <string name="nutrition_guide11_desc">Set a goal to fit in at least 2½ hours of moderate physical activity in your week. Being active 10 minutes at a time also adds to your weekly total. Ask your friends or family to keep you company as you bike, jog, walk, or dance. Don’t forget to do some muscle strengthening activities twice a week.</string>
+
+
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Education Fragment Starts Here++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+
+    <!---Education Tabs-->
+    <string name="education_tab1">Education Problems</string>
+    <string name="education_tab2">Women Education</string>
+
+    <!---Education Headings-->
+    <string name="education_head1_education_problem">Description</string>
+    <string name="education_head2_education_problem">Domestic Duty</string>
+    <string name="education_head3_education_problem">Social Factors</string>
+    <string name="education_head4_education_problem">Conservation Mentality</string>
+    <string name="education_head5_education_problem">Lack of Girls Schools</string>
+    <string name="education_head6_education_problem">Lack of Adequate Educational Facilities</string>
+    <string name="education_head7_education_problem">Lack of Women Teacher for Women Education In India</string>
+    <string name="education_head8_education_problem">Social Adult Women Education</string>
+    <string name="education_head9_education_problem">Lack of Adequate Incentives for Women Education</string>
+    <string name="education_head10_education_problem">Defective Curricular and Policies of Women Education</string>
+    <string name="education_head11_education_problem">Women Trafficking</string>
+    <string name="education_head12_education_problem">Child Labour</string>
+
+    <!---Education Headings description-->
+
+    <string name="education_head1_desc_education_problem">The girls are very useful at home for carrying out domestic duties and so mothers are reluctant to send them to school. A large number of children in the rural areas are undernourished. They hardly have a square meal a day. Unless the parents are given some kind of economic relief, it will be impossible to achieve the targets. In India, the vast majority of the population is poor.They cannot afford to give education to all their children. When the choice comes, they prefer to invest on the education of sons, rather than their daughter. It is believed that the sons will side with the father in old age and on the other hand after some time the girl will get married. She will go to some other family. Therefore, do not care much for women education.</string>
+
+    <string name="education_head2_desc_education_problem">Many societies and a vast population in India still believes that proper place for women is to remain at home, serve the husband and his family and give birth to the children. This function can be performed irrespective of the fact whether the girl is educated or not. In fact, they feel that educated women begin to get some enlightens and start demanding. Especially in a poor section of the society they are required in bring potable water, take food to fields for parents engaged in work and look after their young siblings, besides some are required to work as paid and unpaid workers.</string>
+
+    <string name="education_head3_desc_education_problem">The marriage of girls is a determining factor in women education. Particularly early marriage in UP, MP, Bihar, Rajasthan and Gujarat has been responsible for depriving girls from attending classes. Millions of literate girls are given a way in marriage even before they are in their teens. Today, however, early marriage is not so common and women education has been encouraged by its increasing demand in their marriage markets especially among the upper and middle classes. Thus due to socio-economical reasons, women in India are still not coming in as much in number in the educational institution. The task ahead is difficult. The very fact is also that education among women education in urban India is widespread and more and more number of women is going to school and colleges.</string>
+
+    <string name="education_head4_desc_education_problem">In India, women education has been linked with employment. In other words, the children are educated simply because they are to get some employment. Those people who are not in favour of sending their daughter for employment do not feel the necessity of educating them.</string>
+
+    <string name="education_head5_desc_education_problem">The numbers of women’s educational institutions is much less as compared with institutions engage education in the spread of male education. Therefore in many cases, particularly in remote the village the women are supposed to travel some distance, before reaching an women education institution. Many people do not like that their daughter should leave the village for going to school. Many people still condemn and dislike the idea of co-education. They feel that when both boys and girls study together in a same educational institution, corruption is bound to breed. They, therefore, are not prepared to send their daughter to a co¬education institution.</string>
+
+    <string name="education_head6_desc_education_problem">Non-availability of a school within walking distance of the girls, particularly in backward areas and the unwillingness of many parents to send their daughter to mixed schools beyond the age of 9 plus. Lack of separate sanitary facilities for girls in the mixed schools and lack of suitable school buildings and equipment which tend to create a poor school environment and the crisis of no of girls’ hostel in near the schools.</string>
+
+    <string name="education_head7_desc_education_problem">The lack of women teachers in primary and middle schools has been very largely responsible for the low enrolment of girls, especially in the nine backward states. It is an accepted fact that the primary schools should be staffed by women teachers. At present the proportion of women teachers to men teachers is very low.</string>
+
+    <string name="education_head8_desc_education_problem">The development of women education in the different States have been seriously hampered because of the inadequate machinery to look after the various programmes in this field which require concentrated attention, special caThe development of women education in the different States have been seriously hampered because of the inadequate machinery to look after the various programmes in this field which require concentrated attention, special care and individual guidance. The number of lady officers is far too small to shoulder the responsibility of speeding of the progress of women education as envisaged in our plan. The officers are poorly staffed and ill-equipped. They do not have suitable conveyance facilities which would help in maintaining regular contacts within their field of work.re and individual guidance. The number of lady officers is far too small to shoulder the responsibility of speeding of the progress of women education as envisaged in our plan. The officers are poorly staffed and ill-equipped. They do not have suitable conveyance facilities which would help in maintaining regular contacts within their field of work.</string>
+
+    <string name="education_head9_desc_education_problem">The poor enrolment position of girls, especially in backward areas, cannot be improved unless special incentives are provided. Special schemes sponsored by the government of India have been adopted in several states. Although the schemes have been implemented, they do not cover a very wide area and the total results thus fall short of expectation. In order to ensure that these special schemes provide adequate incentives to the students, it is necessary that they are adopted in larger measures and over a wider geographical area with special priority to the backward districts or pockets.</string>
+
+    <string name="education_head10_desc_education_problem">Although equality of sex has been enshrined in the Constitution and guaranteed in the laws of the land, there has been gender bias in curricula provisions. The topics have been given in the text-books depicting girls as home makers, wives and mothers. Even in some states Mathematics is given as an Optional subject at the secondary stage. Girls are shown as no-achievers, passive, timid and dependent whereas boys are shown as high achievers, courageous, daring and active participants. The National Policy on Education 1986 has, therefore, suggested for removing sex biases in the curriculum for all irrespective of all barriers. All these factors coupled with ignorance, poverty, and mass illiteracy has contributed to the poor progress in women education.</string>
+
+    <string name="education_head11_desc_education_problem">Women trafficking as the act of recruiting, transporting, transferring, harbouring or receiving persons through the use of force coercion or deception for the purpose of exploiting them. This concept is accepted internationally but, m our view, it tends to place too much emphasis on movement. We see women trafficking as a form of modern-day slavery, where people profit from the control and exploitation of others. Every country is affected by trafficking, whether as a country of origin, transit or destination. It is a lucrative criminal industry, second only to drug trafficking, generating billions of dollars annually. A wide range of trafficking occurs in which this is not the case. Often, there are much more subtle forms of coercion or force within families and communities. Broadly speaking, there are two main types of women trafficking: sex trafficking and labour trafficking. The latter type includes things like domestic servitude, field labour, child soldiers, factory labour, bridal and reproductive slavery, and organ trade etc.</string>
+
+    <string name="education_head12_desc_education_problem">The term girls’ child labour is often used synonymously with ’employed girls child’ or ‘working girls child’. In this sense, it is co-extensive with any work done by a child for a gainful purpose. Children are engaged in various forms of activities ranging for help in domestic work; work in a household enterprise to wage work. It is necessary to draw a line between child labour one hand and activities considered as a part of the socialisation process on the other, where children could combine other child hood activities with the limited work roles assigned to them.</string>
+
+
+    <string name="women_education_head1">Education in young age</string>
+    <string name="women_education_head2">Community led educational programmes</string>
+    <string name="women_education_head3">Creative learning and teaching techniques</string>
+    <string name="women_education_head4">Counseling and comforting</string>
+
+
+    <string name="women_education_head1_desc">The young brain is capable of grasping things easily and for longer period of time, thus educating girls when they are young is very important.
+
+This will change the way they see things, they will be capable enough to understand a problem and solve on their own.
+
+Girls are not only meant to learn household works but also gain knowledge about everything.
+
+It is the best time to bring out the hidden talents, these girls store in their heart and can be directed in working towards achieving their ambitions.</string>
+
+    <string name="women_education_head2_desc">Education is not limited to the knowledge of words and frame sentences or just calculating numbers, but basics of life as well.
+
+Teenagers find it difficult to adapt the change, which their body takes place during this period and some fail to understand the hormonal changes, which make them aggressive or phobic due to frequent mood swings.
+
+The community can arrange a group of educated teenage girls and make other young teenage girls in the village learn the basic hygiene, sanitary pads, sex education, when they are at the attaining their adolescent period.</string>
+
+    <string name="women_education_head3_desc">In a village or small town, where technology is still making its way through to get added in their daily life, women can be educated not only through books and notebooks but letting them know the importance of bank accounts, savings, loans, opening a business and ways to earn living independently.
+
+Bunch of volunteers from cities and NGOs willingly visit these villages to teach the women (20-50) to make money out of many ways such as making candles, incense sticks, stitching, bamboo baskets, brooms and many more.
+
+Small scale business opportunities can be created, which will help these women in empowering, building self confidence and will help them in earning and contributing in their family.</string>
+
+    <string name="women_education_head4_desc">There are a lot of women, who face mid-life crisis, become widow at early age, get divorced, thrown out of in-law’s house or lose their children.
+
+These women are everywhere in cities, small towns and in far of villages, they are not only face physical pain but they undergo severe psychological change, when they can take help from the NGOs or volunteer groups, which provide counseling and comfort their pain.
+
+These groups also make them aware of their rights and virtues, help them in getting justice or adopting babies, job opportunities for widows and divorcees and provide old age homes.
+
+These groups help them in finding ways, when they are psychologically lost, mend their broken confidence and help them in overcoming their phobias and fear.
+
+These groups also provide lawyers, if one is stuck in some cases such as domestic violence or dowry cases or acid attack victims or violence on domestic helps.</string>
+
+
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Jobs Fragment Starts Here++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <string name="j_tab1">Government</string>
+    <string name="j_tab2">Private</string>
+    <string name="j_tab3">Business Loans</string>
+    <string name="j_tab4">Career opportunity</string>
+
+    <string name="link1">Link 1:</string>
+    <string name="link2">Link 2:</string>
+    <string name="link3">Link 3:</string>
+    <string name="link4">Link 4:</string>
+    <string name="link5">Link 5:</string>
+    <string name="link6">Link 6:</string>
+    <string name="link7">Link 7:</string>
+    <string name="link8">Link 8:</string>
+    <string name="link9">Link 9:</string>
+
+
+    <!--Jobs Tab 1-->
+    <string name="government_jobs_link1">https://www.fresherslive.com/govt-jobs</string>
+    <string name="government_jobs_link2">https://www.freshersworld.com/jobs/category/govt-sector-job-vacancies</string>
+    <string name="government_jobs_link3">https://www.quora.com/What-are-the-best-apps-and-websites-for-government-job-not...</string>
+    <string name="government_jobs_link4">https://play.google.com/store/apps/details?id=com.jobportal.allgovernmentjob</string>
+    <string name="government_jobs_link5">https://testbook.com/blog/instant-job-alerts-for-major-recruitments-ongoing-upcoming/</string>
+    <string name="government_jobs_link6">https://www.indgovtjobs.in/</string>
+    <string name="government_jobs_link7">tourism.gov.in/recruitment</string>
+    <string name="government_jobs_link8">www.freejobalert.com/latest-notifications/</string>
+    <string name="government_jobs_link9">www.freejobalert.com/government-jobs/</string>
+
+    <!--Jobs Tabs 2-->
+    <string name="private_jobs_link1">https://www.indeed.co.in/Private-Sector-Company-jobs</string>
+    <string name="private_jobs_link2">https://www.naukri.com/private-sector-jobs</string>
+    <string name="private_jobs_link3">www.timesjobs.com › Jobs by Skill › Private Sector Jobs</string>
+    <string name="private_jobs_link4">https://www.recruitment360.in/private-jobs</string>
+    <string name="private_jobs_link5">https://www.fresherslive.com/search-jobs</string>
+    <string name="private_jobs_link6">https://www.recruitment360.in/private-jobs</string>
+    <string name="private_jobs_link7">https://aajtak.intoday.in › करियर › JOBS</string>
+
+    <!--Jobs Tab 3-->
+    <string name="business_loan1">The Credit Guarantee Fund Scheme for Micro and Small Enterprises (CGS)</string>
+    <string name="business_loan1_desc">This scheme is run by the government of India in collaboration with SIDBI (Small Industries Development Bank of India) to give unsecured loans to businesses. You can borrow up to Rs.100 Lakh in term loans or working capital loans as per your eligibility and feasibility.</string>
+
+    <string name="business_loan2">The MUDRA Loan Scheme</string>
+    <string name="business_loan2_desc">MUDRA stands for Micro Units Development and Refinance Agency Ltd. It is an agency launched by the government of India to facilitate corporate term loans to entrepreneurs. Take a look at its features in this table below:\n
+        \n\n1. Shishu	Maximum Amount: Rs 50 Thousand\n\n This stage would cater to entrepreneurs who are eitherin their primitive stage or require lesser funds in order to get their businesses started. Under this stage the applicant would be eligible to get up to Rs 50,000 credit.\n
+        \n\n2. Kishor	Maximum Amount: Rs 5 Lakhs\n\n This stage would cater to entrepreneurs who have requirement of funds in the range of Rs 50,000 and Rs 5lakh. This section of entrepreneurs would belong to either those who have   already started their business and want additional funds to   mobie the business or those who simply require this much of money to start up their businesses.\n
+        \n\n3. Tarun	Maximum Amount: Rs 10 Lakhs\n\n If an entrepreneur meets the required eligibilty conditions, he/she could apply for a loan up to Rs 10 lakh. This would be the highest level of amount that an entrepreneur could apply for a start up loan.
+    </string>
+
+    <string name="business_loan3">Stand Up India Scheme</string>
+    <string name="business_loan3_desc">The Stand Up India scheme is a special scheme started by the government of India to financially empower SC/ST and women entrepreneurs. You can borrow between Rs. 10 lakh and Rs. 1 CR to start a manufacturing, trading or service unit, which is to be repaid in 7 years.
+Want to start a business with minimum investment? Here are a few ideas that could help get your inner entrepreneur excited!
+Try the Instamojo experience to get started with your business in just two minutes.
+</string>
+
+    <!--Jobs Tab 4-->
+    <string name="carrier_opportunities_link1">niti.gov.in/career/recruitment</string>
+    <string name="carrier_opportunities_link2">https://www.careers.govt.nz/job-hunting/job-vacancy-and-recruitment-websites/</string>
+
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Interview Fragment Starts Here++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <string name="i_tab1">Interview Tips</string>
+
+    <string name="interview_tips1">Practice good nonverbal communication</string>
+    <string name="interview_tips1_desc">It\'s about demonstrating confidence: standing straight, making eye contact and connecting with a firm handshake. That first nonverbal impression can be a great beginning—or quick ending—to your interview.</string>
+
+    <string name="interview_tips2">Dress for the job or company</string>
+    <string name="interview_tips2_desc">Today\'s casual dress codes do not give you permission to dress as "they" do when you interview. It is important to know what to wear to an interview and to be well-groomed. Whether you wear a suit or something less formal depends on the company culture and the position you are seeking. If possible, call to find out about the company dress code before the interview.</string>
+
+    <string name="interview_tips3">Listen</string>
+    <string name="interview_tips3_desc">From the very beginning of the interview, your interviewer is giving you information, either directly or indirectly. If you are not hearing it, you are missing a major opportunity. Good communication skills include listening and letting the person know you heard what was said. Observe your interviewer, and match that style and pace.</string>
+
+    <string name="interview_tips4">Don\'t talk too much</string>
+    <string name="interview_tips4_desc">Telling the interviewer more than he needs to know could be a fatal mistake. When you have not prepared ahead of time, you may ramble when answering interview questions, sometimes talking yourself right out of the job. Prepare for the interview by reading through the job posting, matching your skills with the position\'s requirements and relating only that information.</string>
+
+    <string name="interview_tips5">Don\'t be too familiar</string>
+    <string name="interview_tips5_desc">The interview is a professional meeting to talk business. This is not about making a new friend. Your level of familiarity should mimic the interviewer\'s demeanor. It is important to bring energy and enthusiasm to the interview and to ask questions, but do not overstep your place as a candidate looking for a job.</string>
+
+    <string name="interview_tips6">Use appropriate language</string>
+    <string name="interview_tips6_desc">It\'s a given that you should use professional language during the interview. Be aware of any inappropriate slang words or references to age, race, religion, politics or sexual orientation—these topics could send you out the door very quickly.</string>
+
+    <string name="interview_tips7">Don\'t be cocky</string>
+    <string name="interview_tips7_desc">Attitude plays a key role in your interview success. There is a fine balance between confidence, professionalism and modesty. Even if you\'re putting on a performance to demonstrate your ability, overconfidence is as bad, if not worse, as being too reserved.</string>
+
+    <string name="interview_tips8">Take care to answer the questions</string>
+    <string name="interview_tips8_desc">When interviewers ask for an example of a time when you did something, they are asking behavioral interview questions, which are designed to elicit a sample of your past behavior. If you fail to relate a specific example, you not only don\'t answer the question, but you also miss an opportunity to prove your ability and talk about your skills.</string>
+
+    <string name="interview_tips9">Ask questions</string>
+    <string name="interview_tips9_desc">When asked if they have any questions, most candidates answer, "No." Wrong answer. Part of knowing how to interview is being ready to ask questions that demonstrate an interest in what goes on in the company. Asking questions also gives you the opportunity to find out if this is the right place for you. The best questions come from listening to what you\'re asked during the interview and asking for additional information.</string>
+
+    <string name="interview_tips10">Don\'t appear desperate</string>
+    <string name="interview_tips10_desc">When you interview with the "please, please hire me" approach, you appear desperate and less confident. Reflect the three Cs during the interview: cool, calm and confidence. You know you can do the job; make sure the interviewer believes you can, too.</string>
+
+    <!--Url for opening ehaat website-->
+    <string name="e_haat_url">http://mahilaehaat-rmk.gov.in/en/</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!--+++++++++++++++++++++++++++PDF STARTS+++++++++++++++++++++++++++++++++++++++-->
+
+    <string name="legislation_head1">Recommended panel of Institute/Organizations for imparting training programmes/workshop under Sexual Harassment of Women at Workplace (Prevention, Prohibtion, and Redressal) Act, 2013</string>
+    <string name="legislation_head2">Training Module for Two Day Workshop on Sexual Harassment of Women at Workplace (Prevention, Prohibition AndRedressal) Act, 2013</string>
+    <string name="legislation_head3">Recommended Panel of Institutes or Organizations under sexual harassment of Women at workplace Prevention,Prohibition, and Redressal Act 2013</string>
+    <string name="legislation_head4">The sexual harassment of women at workplace Prevention,Prohibition, and Redressal Act 2013</string>
+    <string name="legislation_head5">The Sexual Harassment of Women at Workplace, (Prevention,Prohibition, and Redressal Act 2013, Rules</string>
+    <string name="legislation_head6">Handbook on Sexual Harassment of Women at Workplace</string>
+    <string name="legislation_head7">National Commission for Women Act</string>
+    <string name="legislation_head8">Protection of Women from Domestic Violence Act, 2005</string>
+    <string name="legislation_head9">The Protection of Women from Domestic Violence Act, 2005 Rules</string>
+
+
+    <!--ADDITIONAL STRING USED IN ADMIN LAYOUT-->
+
+    <string name="enter_desc">Enter Description</string>
+    <string name="enter_link">Enter Link</string>
+
+    <string-array name="tab_spinner">
+        <item>HEALTH</item>
+        <item>EDUCATION</item>
+        <item>JOBS</item>
+        <item>INTERVIEW</item>
+        <item>POLICY</item>
+        <item>LEGISLATION</item>
+        <item>MORE LINKS</item>
+    </string-array>
+    <string-array name="health_spinner">
+        <item>WOMEN HEALTH TIPS</item>
+        <item>CHILD HEALTH TIPS</item>
+        <item>WOMEN HEALTH ISSUES</item>
+        <item>CHILD HEALTH ISSUES</item>
+        <item>NUTRITION GUIDE</item>
+        <item>HYGIENE METHODS</item>
+    </string-array>
+
+    <string-array name="education_spinner">
+        <item>CHILD EDUCATION</item>
+        <item>EDUCATION POLICY</item>
+    </string-array>
+    <string-array name="jobs_spinner">
+        <item>GOVERMENT JOBS</item>
+        <item>PRIVATE JOBS</item>
+        <item>BUSINESS RULES</item>
+        <item>CARRIER OPPORTUNITY</item>
+    </string-array>
+
+    <string-array name="interview_spinner">
+        <item>INTERVIEW SKILLS</item>
+        <item>INTERVIEW TIPS</item>
+    </string-array>
+    <string-array name="policy_spinner">
+        <item>POLICIES</item>
+        <item>SCHEMES</item>
+    </string-array>
+
+    <string-array name="legislation_spinner">
+        <item>WOMEN LEGISLATION</item>
+        <item>CHILD LEGISLTATION</item>
+        <item>OTHER LEGISLTATION</item>
+    </string-array>
+
+    <string-array name="links">
+        <item>NEW LiNKS</item>
+    </string-array>
+
+    <string name="error">TRY AGAIN</string>
+    <string name="uploaded">UPLOAD SUCCESSFULL</string>
+    <string name="upload_data">Upload Data</string>
+    <!--ADDITIONAL STRINGS USED IN ADMIN LAYOUT ENDS HERE-->
+</resources>
+
+
+

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?><!--MAIN LINEAR LAYOUT WHICH CARRIES EVERYTHING-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--ONE CHILD OF SCROLL VIEW-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <!--CONTENT FOR THE BUTTON STARTs HERE-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <!--FIRST ROW-->
+                <android.support.v7.widget.CardView
+                    android:onClick="inflateHealthFragment"
+                    android:id="@+id/health_card_view"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    app:contentPaddingBottom="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/healthCardViewColor"
+                            android:fontFamily="serif-monospace"
+                            android:padding="11dp"
+                            android:text="@string/health"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="1dp"
+                            android:src="@drawable/womanshealth"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <!--FIRST ROW SECOND BUTTON-->
+
+                <android.support.v7.widget.CardView
+                    android:onClick="inflateEducationFragment"
+                    android:id="@+id/education_card_view"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    app:contentPaddingBottom="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/educationCardViewColor"
+                            android:fontFamily="serif-monospace"
+                            android:padding="13dp"
+                            android:text="@string/education"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="21dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="1dp"
+                            android:src="@drawable/education2"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </RelativeLayout>
+
+
+            <!--SECOND ROW-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <!--SECOND ROW FIRST ITEM-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/jobs_card_view"
+                    android:onClick="inflateJobsFragment"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    app:contentPaddingBottom="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/jobCardViewColor"
+                            android:fontFamily="serif-monospace"
+                            android:padding="11dp"
+                            android:text="@string/jobs"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="1dp"
+                            android:src="@drawable/jobs2"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <!--FIRST ROW SECOND BUTTON-->
+
+                <android.support.v7.widget.CardView
+                    android:onClick="inflateInterviewFragment"
+                    android:id="@+id/interview_card_view"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    app:contentPaddingBottom="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/yellowishOrange"
+                            android:fontFamily="serif-monospace"
+                            android:padding="11dp"
+                            android:text="@string/interview"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="21dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="1dp"
+                            android:src="@drawable/interview2"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </RelativeLayout>
+
+
+            <!--THIRD ROW-->
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <!--SECOND ROW FIRST ITEM-->
+                <android.support.v7.widget.CardView
+                    android:onClick="inflatePoliciesFragment"
+                    android:id="@+id/policies_card_view"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    app:contentPaddingBottom="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:background="@color/policyCardViewColor"
+                            android:fontFamily="serif-monospace"
+                            android:padding="11dp"
+                            android:text="@string/policy"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="1dp"
+                            android:src="@drawable/policies_card_view_image"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <!--FIRST ROW SECOND BUTTON-->
+
+                <android.support.v7.widget.CardView
+                    android:onClick="inflateLegalSupportFragment"
+                    android:id="@+id/legal_support_card_view"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    app:contentPaddingBottom="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/legalSupportCardViewColor"
+                            android:fontFamily="serif-monospace"
+                            android:text="@string/legal_support"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="4dp"
+                            android:src="@drawable/legal_support_card_view_image"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </RelativeLayout>
+
+            <!--FOURTH ROW-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <!--SECOND ROW FIRST ITEM-->
+                <android.support.v7.widget.CardView
+                    android:onClick="inflateMoreLinksFragment"
+                    android:id="@+id/e_haat_card_view"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    app:contentPaddingBottom="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/EHaatCardViewColor"
+                            android:fontFamily="serif-monospace"
+                            android:padding="12dp"
+                            android:text="@string/more_links"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="21dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="1dp"
+                            android:src="@drawable/policies_card_view_image"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <!--FIRST ROW SECOND BUTTON-->
+
+                <android.support.v7.widget.CardView
+                    android:onClick="inflateComplaintBoxFragment"
+                    android:id="@+id/complaint_box_card_view"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    app:contentPaddingBottom="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/complaintBoxCardViewColor"
+                            android:fontFamily="serif-monospace"
+                            android:padding="6dp"
+                            android:text="@string/complaint_box"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/white"
+                            android:textSize="21dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="4dp"
+                            android:src="@drawable/legal_support_card_view_image"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

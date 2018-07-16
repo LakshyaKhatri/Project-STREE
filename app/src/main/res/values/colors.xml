@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e59b3b</color>
+    <color name="colorPrimaryDark">#ad7124</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="turquoise">#09b4ba</color>
+    <color name="turquoiseDark">#098084</color>
+
+    <color name="yellowishOrange">#e59b3b</color>
+    <color name="yellowishOrangeDark">#ad7124</color>
+
+
+    <!--Colors for HomeActivity CardViews-->
+    <color name="healthCardViewColor">#135b30</color>
+    <color name="educationCardViewColor">#3974a0</color>
+    <color name="jobCardViewColor">#3b3e47</color>
+    <color name="policyCardViewColor">#3974a0</color>
+    <color name="legalSupportCardViewColor">#56e5ff</color>
+    <color name="EHaatCardViewColor">#5831b2</color>
+    <color name="complaintBoxCardViewColor">#b22a5c</color>
+
+    <!--StatusBar and ActionBar colors for different Activities -->
+    <color name="educationActivityColorPrimary">#09b4ba</color>
+    <color name="educationActivityColorPrimaryDark">#098084</color>
+
+    <color name="policyActivityColorPrimary">#3974a0</color>
+    <color name="policyActivityColorPrimaryDark">#295372</color>
+
+    <color name="legalSupportActivityColorPrimary">#56e5ff</color>
+    <color name="legalSupportActivityColorPrimaryDark">#2bb7d1</color>
+
+    <color name="eHaatActivityColorPrimary">#5831b2</color>
+    <color name="eHaatActivityColorPrimaryDark">#341c6b</color>
+
+    <color name="healthActivityColorPrimary">#135b30</color>
+    <color name="healthActivityColorPrimaryDark">#113d23</color>
+
+    <color name="jobsActivityColorPrimary">#3b3e47</color>
+    <color name="jobsActivityColorPrimaryDark">#303238</color>
+
+    <!--Colors for loginActivity-->
+    <color name="facebookLoginBackgroundColor">#3B5998</color>
+    <color name="googleLoginBackgroundColor">#4885ed</color>
+</resources>

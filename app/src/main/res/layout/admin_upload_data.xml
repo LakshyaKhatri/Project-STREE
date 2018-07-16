@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Spinner
+        android:id="@+id/Tab_Spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/tab_spinner"
+        android:layout_margin="10dp"/>
+
+    <Spinner
+        android:id="@+id/Categories_Spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tab_Spinner"
+        android:layout_margin="20dp"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Title_Field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Categories_Spinner"
+        android:layout_margin="15dp"
+        >
+
+        <EditText
+            android:id="@+id/Admin_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_title"
+            android:maxLines="2"
+            />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Desc_Field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Title_Field"
+        android:layout_margin="15dp"
+        >
+
+        <EditText
+            android:id="@+id/Admin_Desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_desc"
+            />
+
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Link_Field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Desc_Field"
+        android:layout_margin="15dp"
+        >
+
+        <EditText
+            android:id="@+id/Admin_Link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_link"
+            android:inputType="textWebEditText"
+
+            />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/UploadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_image"
+        android:layout_below="@id/Link_Field"/>
+
+    <Button
+        android:id="@+id/Upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upload"
+        android:layout_below="@id/UploadImage"
+
+        />
+
+</RelativeLayout>

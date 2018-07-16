@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/Health"
+            android:icon="@drawable/health"
+            android:title="@string/health" />
+        <item
+            android:id="@+id/Education"
+            android:icon="@drawable/education"
+            android:title="@string/education" />
+        <item
+            android:id="@+id/jobs"
+            android:icon="@drawable/jobs"
+            android:title="@string/jobs" />
+        <item
+            android:id="@+id/Interview"
+            android:icon="@drawable/interview"
+            android:title="@string/interview" />
+        <item
+            android:id="@+id/poliices"
+            android:icon="@drawable/policies"
+            android:title="@string/policy" />
+        <item
+            android:id="@+id/legal_support"
+            android:icon="@drawable/legal_support"
+            android:title="@string/legal_support" />
+        <item
+            android:id="@+id/More_Links"
+            android:icon="@drawable/extra_links"
+            android:title="@string/more_links" />
+        <item
+            android:id="@+id/Complaint_Box"
+            android:icon="@drawable/complaint_box"
+            android:title="@string/complaint_box" />
+        <item
+            android:id="@+id/AboutUS"
+            android:icon="@drawable/about_us"
+            android:title="@string/about_us" />
+        <item
+            android:id="@+id/Help"
+            android:icon="@drawable/help"
+            android:title="@string/help" />
+    </group>
+</menu>
